@@ -1,6 +1,6 @@
 # CurrentUserLogger
 
-TODO: Write a gem description
+A gem that writes current user name into Rails log
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create config/initializers/current_user_logger.rb and add the following to it:
+
+    CurrentUserLogger::Loggable = "present_user.login"
 
 ## Contributing
 
